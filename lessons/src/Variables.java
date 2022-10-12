@@ -2,16 +2,15 @@ public class Variables {
 
     public static void main(String[] arg) {
         byte myByte = 127;
-        short myShort = -32768;
+        short myShort =32767;
         int myInt = 2147483647;
-        long myLong = 2147483647;
+        long myLong = 9200000000000000000L;
 
-        float myFloat = 5425.4524f;
-        double myDouble = 4327.425;
+        float myFloat = 432.833f;
+        double myDouble = 43512.880;
 
-        char myChar = 'r';
-
-        boolean myBool = true;
+        char myChar = 'g';
+        boolean myBoolean = true;
 
         System.out.println(myByte);
         System.out.println(myShort);
@@ -20,7 +19,7 @@ public class Variables {
         System.out.println(myFloat);
         System.out.println(myDouble);
         System.out.println(myChar);
-        System.out.println(myBool);
+        System.out.println(myBoolean);
 
     }
 }
